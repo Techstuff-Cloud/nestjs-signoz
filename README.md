@@ -20,7 +20,7 @@ One install, three lines of code — logs, traces, and metrics start flowing to 
 
 Move to your backend directory and run this command
 ```bash
-npm install git+https://github.com/Techstuff-Cloud/signoz-nestjs.git
+npm install git+https://github.com/Techstuff-Cloud/nestjs-signoz.git
 ```
 
 ---
@@ -32,7 +32,7 @@ npm install git+https://github.com/Techstuff-Cloud/signoz-nestjs.git
 ```bash
 OTEL_SERVICE_NAME=your-service-name
 OTEL_EXPORTER_OTLP_ENDPOINT=http://your-signoz-collector:4318
-NODE_ENV=production
+NODE_ENV=production   # OPTIONAL
 ```
 
 ---
@@ -180,10 +180,10 @@ After changes are merged to the repo:
 
 ```bash
 # Update to latest
-npm install git+https://github.com/Techstuff-Cloud/signoz-nestjs.git
+npm install git+https://github.com/Techstuff-Cloud/nestjs-signoz.git
 
 # Or pin to a specific tag
-npm install git+https://github.com/Techstuff-Cloud/signoz-nestjs.git#v1.1.0
+npm install git+https://github.com/Techstuff-Cloud/nestjs-signoz.git#v1.1.0
 ```
 
 ---
